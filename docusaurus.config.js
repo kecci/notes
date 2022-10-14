@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Notes",
-  tagline: "Publications, Blog, and Tutorial",
+  tagline: "Publication, Tutorial, and Blog",
   url: "https://kecci.github.io",
   baseUrl: "/notes/",
   onBrokenLinks: "throw",
@@ -66,7 +66,7 @@ const config = {
           {
             to: "/blog",
             label: "Publication",
-            position: "right"
+            position: "right",
           },
           {
             type: "doc",
@@ -80,8 +80,8 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/kecci",
-            label: "GitHub",
+            href: "https://kecci.github.io",
+            label: "Portfolio",
             position: "right",
           },
         ],
