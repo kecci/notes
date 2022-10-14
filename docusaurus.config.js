@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: "Publication",
-                to: "/publication",
+                to: "/blog",
               },
               {
                 label: "Tutorial",
