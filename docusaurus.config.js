@@ -6,10 +6,10 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Notes",
+  title: "Papers",
   tagline: "Publication, Tutorial, and Blog",
   url: "https://kecci.github.io",
-  baseUrl: "/notes/",
+  baseUrl: "/papers/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logo.jpg",
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "kecci", // Usually your GitHub org/user name.
-  projectName: "notes", // Usually your repo name.
+  projectName: "papers", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -64,15 +64,15 @@ const config = {
         },
         items: [
           {
-            to: "/blog",
-            label: "Publication",
-            position: "right",
-          },
-          {
             type: "doc",
-            docId: "intro",
+            docId: "index",
             position: "right",
             label: "Tutorial",
+          },
+          {
+            to: "/showcase",
+            label: "Showcase",
+            position: "right",
           },
           {
             to: "/blog",
@@ -93,12 +93,12 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Publication",
-                to: "/blog",
+                label: "Tutorial",
+                to: "/docs",
               },
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Showcase",
+                to: "/showcase",
               },
               {
                 label: "Blog",
@@ -132,7 +132,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/kecci/notes",
+                href: "https://github.com/kecci/papers",
               },
               {
                 label: "Go Packages",
@@ -145,7 +145,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Kecci Notes, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Kecci Papers, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
