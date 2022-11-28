@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpapers=self.webpackChunkpapers||[]).push([[5283],{9421:e=>{e.exports=JSON.parse('{"permalink":"/papers/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

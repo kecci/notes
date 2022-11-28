@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpapers=self.webpackChunkpapers||[]).push([[9805],{1741:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/papers/blog/tags/facebook","allTagsPath":"/papers/blog/tags","count":1}')}}]);
